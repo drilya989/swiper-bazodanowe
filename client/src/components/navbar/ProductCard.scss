@@ -1,0 +1,64 @@
+.card {
+    width: 14rem;
+    height: rem;
+}
+
+.card .user {
+    text-decoration: none;
+     /* Remove text decoration */
+}
+
+.card .user span {
+    color: rgb(91, 85, 120);
+    font-size: 12px;
+    text-decoration: none; /* Remove text decoration */
+}
+
+.card .card-title,
+.card .card-text {
+    text-decoration: none; /* Remove text decoration */
+}
+.card-title{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.link {
+    text-decoration: none; // Remove underline from the Link component
+    color: inherit; // Inherit the color from the parent
+}
+.card-footer{
+    button{
+        font-size: small;
+        
+        
+    }
+    p{
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    button:hover {
+        background-color: #007bff; /* Change background color on hover */
+        color: #fff; /* Change text color on hover */
+    }
+}
+.card-footer {
+    display: flex; /* Use flexbox to align items */
+    justify-content: space-between; /* Align items with space between them */
+    align-items: baseline; /* Align items on their baselines */
+}
+
+
+.card {
+    width: 14rem;
+    /* Set a fixed height for the card */
+    height: 20rem;
+}
+
+.card .card-img-top {
+    /* Set a fixed height for the image */
+    height: 10rem; /* Adjust the height as needed */
+    object-fit: cover; /* Ensure the image covers the entire space */
+}
+
+/* Additional styles remain unchanged */
