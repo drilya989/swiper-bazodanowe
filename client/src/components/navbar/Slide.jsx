@@ -8,6 +8,7 @@ import 'swiper/css';
 import './Slide.scss';
 
 
+
 const Slide = ({ currentProductId }) => {
     const [shuffledData, setShuffledData] = useState([]);
 

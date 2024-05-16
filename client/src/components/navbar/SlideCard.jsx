@@ -2,11 +2,12 @@ import React from 'react';
 import './SlideCard.scss';
 import { Link } from 'react-router-dom';
 
+
+
 const SlideCard = ({ item }) => {
+
   return (
-    
-        
-        <div className='slideCard'>
+        <div className='slideCard' onClick={() => {window.location.href=`/product/${item._id}`}}>
           <Link to={`/product/${item._id}`} >
         <img src={item.images[0]} className="card-img-top"  alt="" />
                 <div className="card-body">
